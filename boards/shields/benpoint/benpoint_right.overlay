@@ -184,9 +184,9 @@
 //
 // Therefore we change the default GPIO priority to the highest level (0) and
 // demote all BT interrupt priorities by one level using the kconfig settings:
-CONFIG_BT_CTLR_LLL_PRIO 1
-CONFIG_BT_CTLR_ULL_HIGH_PRIO 2
-CONFIG_BT_CTLR_ULL_LOW_PRIOCONFIG 2
+// - CONFIG_BT_CTLR_LLL_PRIO 1
+// - CONFIG_BT_CTLR_ULL_HIGH_PRIO 2
+// - CONFIG_BT_CTLR_ULL_LOW_PRIOCONFIG 2
 //
 // These config options are enabled automatically by the PS2 UART and GPIO
 // drivers... so you don't have to enable them manually.
